@@ -1,0 +1,45 @@
+# Hamster ignore patterns
+# Lines starting with # are comments
+
+# Build artifacts
+target/
+build/
+dist/
+*.o
+*.so
+*.a
+*.dll
+*.exe
+
+# Dependencies
+node_modules/
+vendor/
+.pnp.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Environment and secrets
+.env
+.env.local
+*.key
+*.pem
+credentials.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
